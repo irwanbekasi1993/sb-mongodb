@@ -1,0 +1,15 @@
+POST http://localhost:8080/sbmongodb/customer HTTP/1.1
+Content-Type:application/json
+
+{
+    "firstName":"echo",
+    "lastName":"echo"
+}
+
+GET http://localhost:8080/sbmongodb/customer HTTP/1.1
+
+GET http://localhost:8080/sbmongodb/customer/6130983338e3dc0fe6fa7fa3 HTTP/1.1
+
+PUT http://localhost:8080/sbmongodb/customer/6130983338e3dc0fe6fa7fa3 HTTP/1.1
+
+DELETE http://localhost:8080/sbmongodb/customer/6130984338e3dc0fe6fa7fa5 HTTP/1.1
